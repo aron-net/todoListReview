@@ -24,7 +24,7 @@
 
 step 1: Clone this repo locally using git in the command line and the following command
 
-git clone https://github.com/aron-helu/To-Do-List.git
+git clone https://github.com/aron-helu/todoListReview.git
 
 Step 2: run **npm install** to download the necessary modules.
 
