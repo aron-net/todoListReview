@@ -6,9 +6,13 @@
     <link rel="shortcut icon" href="./src/favicon-32x32.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/7a892cb0b1.js" crossorigin="anonymous"></script> 
-    <title>To-Do List </title>
+    <title>To-Do List App</title>
   </head>
   <body>
+    <section id="hero">
+      <h1>Welcome! &#128209;</h1>
+      <p>Go ahead and add your first task</p>
+    </section>
     <section id="todo-list">
       <div id="header">
         <h2>Today's Tasks</h2>
@@ -18,7 +22,9 @@
         <input type="text" id="add" placeholder="Add a new task...">
         <i id="add-icon"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M18 6h2v12h-2zm-2 5H7.414l4.293-4.293-1.414-1.414L3.586 12l6.707 6.707 1.414-1.414L7.414 13H16z"></path></svg></i>
       </form>
-      <ul id="task-list"></ul>
+      <ul id="task-list">
+        <!--dynamically generating li's-->
+      </ul>
       <a href="#" id="clear-all">Clear all completed tasks</a>
     </section>
   </body>
