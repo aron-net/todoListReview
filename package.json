@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test2": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js"
   },
