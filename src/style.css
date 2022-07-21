@@ -57,8 +57,6 @@ body {
   text-align: center;
   text-decoration: none;
   background-image: linear-gradient(90deg, rgb(168, 2, 111), rgb(219, 45, 67), rgb(231, 104, 56), rgb(255, 153, 0));
-  background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
   font-weight: 600;
 }
